@@ -1,5 +1,4 @@
 import {Link,NavLink} from 'react-router-dom'
-import logo from '../images/logo.png'
 import './navBar.css'
 import { useState } from 'react'
 import { links } from '../data.js'
@@ -15,7 +14,7 @@ const Navbar = () =>
       <nav>
         <div className="container nav_container">
           <Link to="/" className="logo" onClick={() => setNavShow(false)}>
-          <img src={logo} alt=''></img>
+          <h2>PHOENIX</h2>
           </Link>
           <ul className= {`nav_menu ${navShow ? 'show_nav':'hide_nav'}`}>
             {

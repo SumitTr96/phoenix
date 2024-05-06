@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import Logo from "../images/logo.png";
 import { FaLinkedin } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { AiOutlineTwitter } from "react-icons/ai";
@@ -11,7 +10,7 @@ const Footer = () => {
       <div className="container footer_container">
         <article>
           <Link to="/" className="logo">
-            <img src={Logo} alt="Footer Logo" />
+            <h4>PHOENIX</h4>
           </Link>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
